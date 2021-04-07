@@ -292,7 +292,7 @@ body{
     z-index: 5;
     margin-top: -100px;
 }
-.btnDown>button{
+.arrow>button{
     position: relative;
     z-index: 6;
     left: 50%;
@@ -310,15 +310,18 @@ body{
     background-color: white;
     width: 360px;
     height: 290px;
+    box-shadow: 0px 4px 16px rgba(0, 66, 148, 0.08);
+    border-radius: 5px;
 }
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    grid-column-gap: 30px
+    grid-column-gap: 30px;
+
 }
 
-.bg-white-feature>.thumb{
+.bg-white-feature>.card-image{
     text-align: center;
 }
 .grid-title{
@@ -333,14 +336,17 @@ body{
 
 .grid-item-01{
     padding-top: 165px;
+    padding-bottom: 180px;
 }
 
 .grid-item-02{
     padding-top: 215px;
+    padding-bottom: 130px;
 }
 
 .grid-item-03{
     padding-top: 165px;
+    padding-bottom: 180px;
 }
 
 .grid-item-01 .bg-white-feature{
