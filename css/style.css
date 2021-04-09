@@ -404,7 +404,7 @@ body{
 }
 
 .bg-white-tariff-01{
-    background-color: white;
+    background-color: #fff;
     width: 332px;
     height: 256px;
 }
@@ -463,20 +463,6 @@ body{
 .buy{
     text-align: center;
     margin-top: 50px;
-}
-.tariff-item-01{
-    padding-top: 291px;
-    padding-bottom: 288px;
-}
-
-.tariff-item-02{
-    padding-top: 130px;
-    padding-bottom: 129px;
-}
-
-.tariff-item-03{
-    padding-top: 130px;
-    padding-bottom: 129px;
 }
 
 .grid-item-01 .bg-white-feature{
@@ -839,6 +825,78 @@ body{
 .slider_item{
     margin-right: 40px;
 }
+
+.about-content{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.about-card-title{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 30px 0
+}
+
+.about-card-text{
+    line-height: 150%;
+    width: 543px;
+    margin-bottom: 20px;
+    /*margin: 0 0 259px 0*/
+}
+
+.get {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    /*overflow: hidden;*/
+    /*border-radius: 25px;*/
+    height: 40px;
+    width: 338px;
+    margin: auto;
+}
+
+.monthly {
+    height: 100%;
+    background-color: #0F7BFF;
+    color: #fff;
+    border: none;
+    outline: none;
+    line-height: 24px;
+    padding-left: 23px;
+    padding-right: 75px;
+    width: 169px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+
+.yearly {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    height: 100%;
+    border: 2px solid #0F7BFF;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    outline: none;
+    background-color: #fff;
+    color: #0F7BFF;
+    cursor: pointer;
+    width: 169px;
+}
+
+.buy {
+    margin-right: auto;
+}
+
 @media screen and (max-width: 2400px){
     .hi_body{
         padding: 0px 154px 0px 0px;
@@ -923,6 +981,19 @@ body{
     }
     .menu-button{
         display: none;
+    }
+    .tariff-item-01{
+        padding-top: 291px;
+        padding-bottom: 288px;
+    }
+    .tariff-item-02{
+        padding-top: 130px;
+        padding-bottom: 129px;
+    }
+
+    .tariff-item-03{
+        padding-top: 130px;
+        padding-bottom: 129px;
     }
 }
 
@@ -1014,6 +1085,19 @@ body{
     }
     .menu-button{
         display: none;
+    }
+    .tariff-item-01{
+        padding-top: 291px;
+        padding-bottom: 288px;
+    }
+    .tariff-item-02{
+        padding-top: 130px;
+        padding-bottom: 129px;
+    }
+
+    .tariff-item-03{
+        padding-top: 130px;
+        padding-bottom: 129px;
     }
 }
 
@@ -1161,6 +1245,17 @@ body{
     .menu{
         display: none;
     }
+    .tariff-item-01{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .tariff-item-02{
+        padding: 10px;
+    }
+
+    .tariff-item-03{
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 767px){
@@ -1278,7 +1373,17 @@ body{
     .testimonials-slider-title{
         text-align: center;
     }
+    .tariff-item-01{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .tariff-item-02{
+        padding: 10px;
+    }
 
+    .tariff-item-03{
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 575px){
@@ -1378,76 +1483,16 @@ body{
     .testimonials-slider-title{
         text-align: center;
     }
+    .tariff-item-01{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .tariff-item-02{
+        padding: 10px;
+    }
+
+    .tariff-item-03{
+        padding: 10px;
+    }
 }
 
-
-.about-content{
-    display: flex;
-    justify-content: center;
-}
-
-
-
-.about-card-title{
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 40px;
-    margin: 0 0 30px 0
-}
-
-.about-card-text{
-    line-height: 150%;
-    width: 543px;
-    margin-bottom: 20px;
-    /*margin: 0 0 259px 0*/
-}
-
-.get {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: relative;
-    /*overflow: hidden;*/
-    /*border-radius: 25px;*/
-    height: 40px;
-    width: 338px;
-    margin: auto;
-}
-
-.monthly {
-    height: 100%;
-    background-color: #0F7BFF;
-    color: #fff;
-    border: none;
-    outline: none;
-    line-height: 24px;
-    padding-left: 23px;
-    padding-right: 75px;
-    width: 169px;
-    border-bottom-left-radius: 25px;
-    border-top-left-radius: 25px;
-    cursor: pointer;
-    font-weight: 700;
-}
-
-
-
-.yearly {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-weight: 700;
-    height: 100%;
-    border: 2px solid #0F7BFF;
-    border-bottom-right-radius: 25px;
-    border-top-right-radius: 25px;
-    outline: none;
-    background-color: #fff;
-    color: #0F7BFF;
-    cursor: pointer;
-    width: 169px;
-}
-
-.buy {
-    margin-right: auto;
-}
