@@ -1,5 +1,5 @@
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -32,17 +32,17 @@
 }
 
 .list-reset {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 .btn-reset {
-	padding: 0;
-	border: none;
-	font-family: 'Quicksand', sans-serif;;
-	background-color: transparent;
-	cursor: pointer;
+    padding: 0;
+    border: none;
+    font-family: 'Quicksand', sans-serif;;
+    background-color: transparent;
+    cursor: pointer;
 }
 a{
     text-decoration: none;
@@ -55,10 +55,10 @@ body{
 }
 
 .header {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 
 .header-container{
@@ -955,6 +955,7 @@ body{
     }
     .column-item-01{
         margin: 60px 0 243px 0;
+        position: relative;
     }
 
     .column-item-top{
