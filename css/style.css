@@ -275,7 +275,7 @@ body{
     z-index: 5;
     margin-top: -100px;
 }
-.arrow>button{
+.arrow>a{
     position: relative;
     z-index: 6;
     left: 50%;
@@ -287,7 +287,9 @@ body{
     height: 70px;
     background-color: #0063DD;
     color: white;
-    box-shadow: #0063DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bg-white-feature{
     background-color: white;
