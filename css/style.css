@@ -1047,8 +1047,8 @@ body{
         justify-content: center;
         flex-direction: column;
     }
-    .testimonials-img{
-        display: block;
+    .testimonials-img img{
+        display: none;
     }
 }
 
@@ -1094,8 +1094,8 @@ body{
         justify-content: center;
         flex-direction: column;
     }
-    .testimonials-img{
-        display: block;
+    .testimonials-img img{
+        display: none;
     }
 }
 
@@ -1141,8 +1141,8 @@ body{
         justify-content: center;
         flex-direction: column;
     }
-    .testimonials-img{
-        display: block;
+    .testimonials-img img{
+        display: none;
     }
 }
 
