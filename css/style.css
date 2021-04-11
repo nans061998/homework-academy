@@ -37,7 +37,7 @@ body{
 
 .header{
     width: 100%;
-    background-image: url(./img/Vector1.svg);
+    background-image: url(../img/Vector1.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
